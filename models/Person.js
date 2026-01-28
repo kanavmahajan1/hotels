@@ -16,5 +16,6 @@ const personSchema = new mongoose.Schema({
   },
   // Add more fields as needed
 });
+ // Just for learning
 
 module.exports = mongoose.model('Person', personSchema);
